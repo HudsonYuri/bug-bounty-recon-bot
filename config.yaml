@@ -1,0 +1,24 @@
+# config.yaml
+workspace_dir: "workspace"
+threads: 100
+timeout: 10
+rate_limit: 2.0
+
+# Proxies (opcional)
+use_proxy: false
+proxy_list:
+  - "http://proxy1:8080"
+  - "http://proxy2:8080"
+
+# DNS
+dns_servers:
+  - "8.8.8.8"
+  - "1.1.1.1"
+  - "9.9.9.9"
+
+# APIs (opcional)
+apis:
+  securitytrails: "YOUR_API_KEY"
+  virustotal: "YOUR_API_KEY"
+  shodan: "YOUR_API_KEY"
+  censys: "YOUR_API_KEY"
